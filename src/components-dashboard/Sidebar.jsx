@@ -1,17 +1,19 @@
 import React from 'react'
+import discord_logo from '../assets/discord_logo.svg'
+import plus_logo from '../assets/plus.svg'
 
 const Sidebar = () => {
   return (
     <div className='w-20 bg-[#202225] flex-none flex flex-col min-h-screen h-screen px-2 py-2'>
       <div className='overflow-y-auto '>
       <ul className='text-center'>
-        <li><a href='#'><img src='../assets/discord_logo.svg' className='w-12 h-12 rounded-full mx-auto' alt='discord-icon' /></a></li>
+        <li><a href='#'><img src={discord_logo} className='w-12 h-12 rounded-full mx-auto' alt='discord-icon' /></a></li>
         <li className='border-b border-gray-700 mx-4 mt-3'></li>
-        <li className='mt-3'><a href='#'><img src='../assets/discord_logo.svg' className='w-12 h-12 rounded-full mx-auto' alt='discord-icon' /></a></li>
-        <li className='mt-3'><a href='#'><img src='../assets/discord_logo.svg' className='w-12 h-12 rounded-full mx-auto' alt='discord-icon' /></a></li>
+        <li className='mt-3'><a href='#'><img src={discord_logo} className='w-12 h-12 rounded-full mx-auto' alt='discord-icon' /></a></li>
+        <li className='mt-3'><a href='#'><img src={discord_logo} className='w-12 h-12 rounded-full mx-auto' alt='discord-icon' /></a></li>
 
         <li className='mt-3'>
-        <a href='#' className='w-12 h-12 bg-gray-800 inline-block rounded-full py-3 hover:bg-gray-700 hover:text-white'><img src='../assets/plus.svg' className='w-4 h-6  rounded-full mx-auto' alt='discord-icon' /></a></li>
+        <a href='#' className='w-12 h-12 bg-gray-800 inline-block rounded-full py-3 hover:bg-gray-700 hover:text-white'><img src={plus_logo} className='w-4 h-6  rounded-full mx-auto' alt='discord-icon' /></a></li>
 
         <li className="mt-2">
             <a href="#" className="w-12 h-12 bg-gray-800 hover:bg-teal-500 text-teal-500 hover:text-white inline-block rounded-full">

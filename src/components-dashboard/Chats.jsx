@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import discord_logo from "../assets/discord_logo.svg";
 
 const Chats = () => {
   return (
     <>
     <div className="flex mx-6 my-3 py-4 border-t border-gray-700">
-                <div className="flex-none"><a href="#"><img src="../assets/discord_logo.svg" alt="avatar" className="w-10 h-10 rounded-full" /></a></div>
+                <div className="flex-none"><a href="#"><img src={discord_logo} alt="avatar" className="w-10 h-10 rounded-full" /></a></div>
                 <div className="ml-5">
                   <div cla>
                     <a href="#" className="text-red-400 font-medium hover:underline">Varun</a>
@@ -18,7 +19,7 @@ const Chats = () => {
                 </div>
                 </div>
             <div className="flex mx-6 my-3 py-4 border-t border-gray-700">
-                <div className="flex-none"><a href="#"><img src="../assets/discord_logo.svg" alt="avatar" className="w-10 h-10 rounded-full" /></a></div>
+                <div className="flex-none"><a href="#"><img src={discord_logo} alt="avatar" className="w-10 h-10 rounded-full" /></a></div>
                 <div className="ml-5">
                   <div cla>
                     <a href="#" className="text-blue-400 font-medium hover:underline">Puneet Kumar</a>
@@ -32,7 +33,7 @@ const Chats = () => {
                 </div>
                 </div>
             <div className="flex mx-6 my-3 py-4 border-t border-gray-700">
-                <div className="flex-none"><a href="#"><img src="../assets/discord_logo.svg" alt="avatar" className="w-10 h-10 rounded-full" /></a></div>
+                <div className="flex-none"><a href="#"><img src={discord_logo} alt="avatar" className="w-10 h-10 rounded-full" /></a></div>
                 <div className="ml-5">
                   <div cla>
                     <a href="#" className="text-red-500 font-medium hover:underline">Mehul Mohan</a>
@@ -46,7 +47,7 @@ const Chats = () => {
                 </div>
                 </div>
             <div className="flex mx-6 my-3 py-4 border-t border-gray-700">
-                <div className="flex-none"><a href="#"><img src="../assets/discord_logo.svg" alt="avatar" className="w-10 h-10 rounded-full" /></a></div>
+                <div className="flex-none"><a href="#"><img src={discord_logo} alt="avatar" className="w-10 h-10 rounded-full" /></a></div>
                 <div className="ml-5">
                   <div cla>
                     <a href="#" className="text-lime-400 font-medium hover:underline">Meta_raj</a>
@@ -60,7 +61,7 @@ const Chats = () => {
                 </div>
                 </div>
             <div className="flex mx-6 my-3 py-4 border-t border-gray-700">
-                <div className="flex-none"><a href="#"><img src="../assets/discord_logo.svg" alt="avatar" className="w-10 h-10 rounded-full" /></a></div>
+                <div className="flex-none"><a href="#"><img src={discord_logo} alt="avatar" className="w-10 h-10 rounded-full" /></a></div>
                 <div className="ml-5">
                   <div cla>
                     <a href="#" className="text-orange-400 font-medium hover:underline">Tanmay_bhat</a>
@@ -74,7 +75,7 @@ const Chats = () => {
                 </div>
                 </div>
             <div className="flex mx-6 my-3 py-4 border-t border-gray-700">
-                <div className="flex-none"><a href="#"><img src="../assets/discord_logo.svg" alt="avatar" className="w-10 h-10 rounded-full" /></a></div>
+                <div className="flex-none"><a href="#"><img src={discord_logo} alt="avatar" className="w-10 h-10 rounded-full" /></a></div>
                 <div className="ml-5">
                   <div cla>
                     <a href="#" className="text-cyan-400 font-medium hover:underline">0xBhaisaab</a>
@@ -88,7 +89,7 @@ const Chats = () => {
                 </div>
                 </div>
             <div className="flex mx-6 my-3 py-4 border-t border-gray-700">
-                <div className="flex-none"><a href="#"><img src="../assets/discord_logo.svg" alt="avatar" className="w-10 h-10 rounded-full" /></a></div>
+                <div className="flex-none"><a href="#"><img src={discord_logo} alt="avatar" className="w-10 h-10 rounded-full" /></a></div>
                 <div className="ml-5">
                   <div cla>
                     <a href="#" className="text-lime-400 font-medium hover:underline">Meta_raj</a>
